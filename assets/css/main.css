@@ -69,7 +69,8 @@ body{
     width:calc((100% - 30px)/2) ;
 }
 .footer.right-side.row{
-    gap: 30px;
+    gap: 35px;
+  
 }
 .footer-item{
     gap: 45px;
@@ -77,5 +78,19 @@ body{
 }
 
 @media screen  and (max-width:992px){
-    .footer.left-side,.footer.right-sidei
+    .footer.left-side,.footer.right-side{
+        width:100%;
+    }
+}
+
+@media screen  and (max-width:576px){
+    .footer-item{
+        width: 100%;
+    }
+}
+
+media screen  and (max-width:320px){
+    .footer-item{
+        width: 100%;
+    }
 }
