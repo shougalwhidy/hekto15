@@ -40,7 +40,7 @@ body{
     padding: 8px 13px;
 }
 @media screen and (max-width:1200px){
-    .list,.search{
+    .list,.header.search{
         display: none;
     }
     .bar{
@@ -52,9 +52,30 @@ body{
     background-color: #EEEFFB;
     padding: 50px 0;
 }
-.footer-item{
-    gap: 45px;
+
+.footer.row{
+    gap: 30px;
 }
+
 .footer a,.address-info{
     color: #8A8FB9;
+}
+
+.footer.left-side{
+    width: calc((100% - 30px) /2);
+}
+
+.footer.right-side{
+    width:calc((100% - 30px)/2) ;
+}
+.footer.right-side.row{
+    gap: 30px;
+}
+.footer-item{
+    gap: 45px;
+    width: calc((100% - 70px)/3);
+}
+
+@media screen  and (max-width:992px){
+    .footer.left-side,.footer.right-sidei
 }
