@@ -1,3 +1,4 @@
+/* start header */
 body{
     font-family: var(--mainfont);
 }
@@ -49,6 +50,28 @@ body{
 }
 /* end header */
 
+/* start newslater */
+.newslater{
+     background-image:url("/assets/img/public/newslater.webp");
+     padding: 175px 0;
+     text-align: center;
+    /* background-attachment:scroll; */
+}
+.newslater h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop-btn {
+    transition: all .5s;
+}
+.shop-btn:hover{
+    background-color:#151875 ;
+}
+
+/* end newslater */
+
+
 /* start clients */
 .clients{
     padding: 50px 0;
@@ -74,6 +97,7 @@ body{
 }
 
  /* end clients */
+
 
 /* start footer*/
 .footer{
