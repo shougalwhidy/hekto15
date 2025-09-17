@@ -50,11 +50,93 @@ body{
 }
 /* end header */
 
+/* start Featured Product */
+.featured-product{
+    padding: 50px 0;
+}
+.featured-product h2{
+    margin-bottom: 30px;
+    color:#1A0B5B ;
+}
+.featured-product.row{
+   justify-content: flex-start;
+   
+}
+.featured-product.product{
+    flex-grow: 1;
+    flex-basis: 300px ;
+    border-radius: 4px;
+    
+}
+.product .img{
+    background-color:#F6F7FB ;
+    padding: 30px;
+    
+}
+.color{
+    width: 20px;
+    height: 6px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.color-one{
+      background-color: #05E6B7;
+}
+
+.color-two{
+   background-color:#F701A8;
+}
+.color-three{
+    background-color: #00009D;
+}
+
+
+
+.product img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    transition: all .6s;
+}
+.product:hover{
+    background-color: #2F1AC4;
+    border-radius: 2px;
+}
+.product-details h3{
+    transition: all .6s ;
+}
+
+.product:hover .product-details h3{
+    color: #fff;
+} 
+
+.product:hover .color-three{
+    background-color:#FFEAC1 ;
+}
+.product-info span{
+    transition: all .6s;
+}
+.product:hover .product-info span{
+     color:#fff ;
+}
+
+/* end Featured Product */
+
+
+
 /* start newslater */
 .newslater{
      background-image:url("/assets/img/public/newslater.webp");
      padding: 175px 0;
      text-align: center;
+     margin-top: 30px;
     /* background-attachment:scroll; */
 }
 .newslater h2{
@@ -68,6 +150,7 @@ body{
 .shop-btn:hover{
     background-color:#151875 ;
 }
+
 
 /* end newslater */
 

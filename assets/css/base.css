@@ -94,4 +94,46 @@ ul{
 .w-side{
     width: 60%;
 }
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align:right;
+}
+.box-sh{
+     box-shadow: 0px 4px 4px #00000040;
+}
+
+.margin-bot{
+    margin-bottom: 30px;
+}
+.text-primary{
+    color: var(--primary);
+}
+.text-secondary{
+    color:#151875;
+}
+.:hover  {
+    color:#fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     
