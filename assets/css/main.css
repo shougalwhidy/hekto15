@@ -496,6 +496,21 @@ body {
 .Leatest-Products-half-items {
   margin-top: 10px;
 }
+
+@media screen and (max-width:500px) {
+    .Leatest-Products {
+        width: 100%;
+
+
+    }
+    .container {
+        overflow: hidden;
+    }
+    .Leatest-Products-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
 /* end Leatest-Products */
 
 
@@ -568,7 +583,7 @@ body {
     font-family: var(--mainFont);
     color: #1A0B5B4D;
 }
-/*
+
 @media screen and (max-width:950px) {
     .what-child {
         width: 45%;
@@ -586,7 +601,7 @@ body {
 
     }
 
-}/*
+}
 
 /*  end  What-Shopex-Offer section */
 
@@ -676,12 +691,139 @@ font-size: 12px;
 font-weight: 400;
 text-align: center;
 text-decoration: line-through;
-
-
-
-    
 }
-/* end Trending Products  section */
+
+@media screen and (max-width:950px) {
+    .child {
+        width: 45%;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .container {
+        overflow: hidden;
+    }
+    .child {
+
+        width: 80%;
+
+    }
+
+}
+  
+ /*end Trending Products  section */
+
+
+
+/*start Top Categories section */
+.Top-Categories-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.Top-Categories-content h2{
+    color: #151875;
+    font-family:var(--secFont);
+    font-size: 42px;
+   
+}
+
+
+.Top-Categories-content-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+}
+.Top-Categories-content-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    width:20%;
+    height: 345px;
+    position:relative;
+    gap: 20px;
+  
+
+}
+.Top-Categories-child-image{
+    width: 269px;
+    height: 269px;
+    background-color: #F6F7FB;
+   /* box-shadow: -12px 5px 0px 0px #9877E7;*/
+  text-align: center;
+  align-content: center;
+    border-radius: 360px;
+    padding-bottom:10px ;
+    box-sizing: border-box;
+   
+   
+
+}
+.Top-Categories-content-child .View-btn {
+   display: none;
+    padding: 10px;
+    background-color: #08D15F;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: var(--secFont);
+    border-radius: 3px;
+    position:absolute;
+    bottom: 91px;
+    right: 65px;
+
+
+}
+
+ .Top-Categories-content-child:hover{
+
+    .View-btn {
+        display: block;
+    }
+    .Top-Categories-child-image{
+      
+        box-shadow: -11px 4px 0px 0px #9877E7;}
+ }
+.Top-Categories-content-parent h3{
+    
+font-size: 20px;
+font-weight: 400;
+color:#151875;
+}
+.Top-Categories-content span{
+    color: #151875;
+    font-family:var(--secFont);
+font-size: 16px;
+font-weight: 400;
+}
+
+@media screen and (max-width:950px) {
+    .Top-Categories-content-child {
+        width: 45%;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .container {
+        overflow: hidden;
+    }
+    .Top-Categories-content-child {
+
+        width: 80%;
+
+    }
+
+}
+
+/*end Top Categories section */
+
+
 
 /* start newslater */
 .newslater {
