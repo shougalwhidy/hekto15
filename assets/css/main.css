@@ -2,47 +2,38 @@
 body {
   font-family: var(--mainfont);
 }
-
 .header {
   padding: 47px 0;
 }
-
 .header ul {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
 }
-
 .bar {
   display: none;
 }
-
 .list a {
   color: #0d0e43;
 }
-
 .header .active {
   color: var(--primary);
 }
-
 .search form {
   border: 2px solid #e7e6ef;
 }
-
 .search input {
   border: none;
   outline: none;
   width: 250px;
   padding-left: 9px;
 }
-
 .search button {
   border: none;
   outline: none;
   background-color: var(--primary);
   padding: 8px 13px;
 }
-
 @media screen and (max-width: 1200px) {
   .list,
   .header.search {
@@ -53,26 +44,24 @@ body {
     display: block;
   }
 }
-
 /* end header */
 
+
+/* start hero */
 .hero {
   background-color: #f2f0ff;
   padding: 50px 0;
 }
-
 .hero-lamp img {
   position: relative;
   bottom: 96px;
   width: 70%;
 }
-
 .hero-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .hero .hero-content .text-content {
   display: flex;
   flex-direction: column;
@@ -80,31 +69,25 @@ body {
   align-items: flex-start;
   animation: SlideInFromLeft 1s;
 }
-
 .hero .subtitle {
   color: var(--primary);
   font-weight: 700;
   font-size: 18px;
 }
-
 .hero .title {
   font-size: 25px;
   font-weight: 400;
   line-height: 1.8;
 }
-
 .hero .description {
   color: #8a8fb9;
 }
-
 .hero-img {
   flex: 1 0 30%;
 }
-
 .hero-img img {
   width: 100%;
 }
-
 @media screen and (max-width: 800px) {
   .hero .hero-lamp img {
     width: 114px;
@@ -131,18 +114,15 @@ body {
     width: 100%;
   }
 }
-
 /* end hero */
+
+
 /* start Featured Product */
 .Featured-Products {
-
-
     padding: 104px 0;
     box-sizing: border-box;
 
-
 }
-
 
 .Featured-Products h2 {
     text-align: center;
@@ -157,7 +137,6 @@ body {
     text-align: center;
 
 }
-
 .Featured-Products-images {
     padding: 35px 0;
     box-sizing: border-box;
@@ -165,7 +144,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 
 .Featured-Products-img-item {
@@ -183,7 +161,6 @@ body {
 
 }
 
-
 .pro-images {
     width: 100%;
     height: 236px;
@@ -195,7 +172,6 @@ body {
     align-items: center;
     gap: 9px;
 
-
 }
 
 .Featured-Products-img-item .pro-images img {
@@ -203,9 +179,6 @@ body {
     height: 170px;
     padding-top: 20px;
     box-sizing: border-box;
-
-
-
 }
 
 .Featured-Products-img-item .pro-images .View-btn {
@@ -219,16 +192,11 @@ body {
 
 }
 
-
-
-
 .Featured-Products .Featured-Products-icon {
     display: none;
     width: 100%;
     height: auto;
     position: relative;
-
-
 }
 
 .Featured-Products .Featured-Products-icon img {
@@ -244,8 +212,6 @@ body {
     width: 30px;
     height: 30px;
 
-
-
 }
 
 .Featured-Products .heart-icon {
@@ -254,7 +220,6 @@ body {
     left: 46px;
     width: 30px;
     height: 30px;
-
 }
 
 .Featured-Products .plus-icon {
@@ -330,6 +295,8 @@ body {
 
 }
 /* end Featured Product */
+
+
 
 /* start Leatest-Products */
 .Leatest-Products-content {
@@ -529,6 +496,192 @@ body {
 .Leatest-Products-half-items {
   margin-top: 10px;
 }
+/* end Leatest-Products */
+
+
+/* start What-Shopex-Offer section */
+.What-Shopex-Offer {
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #8A8FB9;
+}
+
+.What-Shopex-Offer h2 {
+    font-size: 42px;
+    font-weight: 367px;
+    color: #151875;
+
+
+}
+
+.what-parent {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    justify-content: center;
+    padding: 80px 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.what-child {
+    width: 22%;
+    height: 320px;
+    background-color: #FFFFFF;
+    box-shadow: #31208A0D;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 0px 8px 40px 0px rgba(50, 32, 138, 0.071);
+
+}
+
+.what-child img {
+    width: 65px;
+    height: 65px;
+
+}
+
+.what-child h3 {
+    font-size: 22px;
+    font-family: var(--secFont);
+    color: #151875;
+}
+
+.what-child p {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--mainFont);
+    color: #1A0B5B4D;
+}
+/*
+@media screen and (max-width:950px) {
+    .what-child {
+        width: 45%;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .container {
+        overflow: hidden;
+    }
+    .what-child {
+
+        width: 80%;
+
+    }
+
+}/*
+
+/*  end  What-Shopex-Offer section */
+
+
+/* start Trending-Products */
+
+.Trending-Products-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+}
+.Trending-Products-content h2 {
+    font-size: 42px;
+    font-weight: 367px;
+    color:#151875;
+    padding-top:70px ;
+    
+
+}
+.Trending-Products-Parent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 70px 0;*/
+    justify-content: center;
+   
+}
+
+
+.Trending-Products-Parent .child {
+    width:270px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 40px 0px rgba(50, 32, 138, 0.071);
+    margin:10px;
+
+ 
+}
+
+.Trending-Products-Parent .child-img{
+ width: 247px;
+height: 244px;
+left: 11px;
+padding: 28px 30px 29px 30px;
+
+background-color: #F5F6F8;
+text-align:center;
+
+
+}
+
+.Trending-Products-Parent .child-img img{
+    width:70%;
+     height:80%;
+}
+
+.child h3{
+  
+font-family: var(--mainFont);
+  color: #151875;  
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+
+}
+
+
+.child .price-after{
+    color: #151875;  
+font-family:var(--secFont);
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+margin-right:15px;
+}
+.child .price-before {
+    color: #1518754D;
+  
+font-family:var(--secFont);
+font-size: 12px;
+font-weight: 400;
+text-align: center;
+text-decoration: line-through;
+
+
+
+    
+}
+/* end Trending Products  section */
 
 /* start newslater */
 .newslater {
@@ -538,7 +691,6 @@ body {
   margin-top: 30px;
   /* background-attachment:scroll; */
 }
-
 .newslater h2 {
   margin-bottom: 50px;
   color: #151875;
@@ -554,6 +706,7 @@ body {
 }
 
 /* end newslater */
+
 
 /* start clients */
 .clients {
@@ -582,6 +735,8 @@ body {
 }
 
 /* end clients */
+
+
 
 /* start footer*/
 .footer {
