@@ -12,6 +12,7 @@ ul{
 :root{
     --primary:#FB2E86;
     --mainfont:"Lato", sans-serif;
+    --secFont: "Josefin Sans", serif;
 }
 .btn{
     border: none;
@@ -94,6 +95,7 @@ ul{
 .w-side{
     width: 60%;
 }
+
 .text-center{
     text-align: center;
 }
@@ -116,15 +118,19 @@ ul{
 .text-secondary{
     color:#151875;
 }
-.:hover  {
-    color:#fff ;
+.w-1{
+    width: 25%;
+}
+.pr-1{
+    position: relative;
+}
+.justify-between{
+    justify-content: space-between;
 }
 
 
 
-
-
-
+ 
 
 
 
